@@ -26,4 +26,10 @@ set spelllang=en_us
 inoremap <C-l> <c-g>u<Esc>[s1z=`]a<c-g>u
 ```
 
-Something not working as expected? Feel free to open an issue!
+## Shubodh's fork/notes
+
+[Notion notes link](https://www.notion.so/saishubodh/VIM-LaTeX-Shortcuts-c08d4ec66b7c4ffeb4b5c8f15c4d555d#b2967cae4f1b4d5abc6789e49385aa09)
+
+*  The `b` means that this snippet will only be expanded at the beginning of a line and `A` stands for auto expand, which means I do not have to press Tab to expand the snippet.
+* The snip­pet for in­line math is ‘smart’: it knows when to in­sert a space after the dol­lar sign. When I start typ­ing a word di­rect­ly be­hind the clos­ing $, it adds a space. How­ev­er, when I type a non-​word char­ac­ter, it does not add a space, which would be pre­ferred for ex­am­ple in the case of $p$-value.
+* sub­scripts. It changes changes a1 to a_1 and a_12 to a_{12}.
